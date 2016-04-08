@@ -1,0 +1,53 @@
+@brand-success: #FCE7E0;
+@text-color: #212121;
+@brand-primary: #E85C32;
+@screen-sm: 768px;
+@screen-xs: 480px;
+@screen-md: 1020px;
+@screen-lg: 1228px;
+@screen-sm-min: @screen-sm;
+@screen-md-min: @screen-md;
+@screen-xs-min: @screen-xs;
+@screen-lg-min: @screen-lg;
+@screen-tablet: @screen-sm-min;
+@screen-desktop: @screen-md-min;
+@screen-lg-desktop: @screen-lg-min;
+
+.bp(mobile, @rules) {
+  @media (max-width: @screen-xs-min) {@rules();}
+}
+.bp(tablet, @rules) {
+  @media (min-width: @screen-tablet) {@rules();}
+}
+.bp(desktop, @rules) {
+  @media (min-width: @screen-desktop) {@rules();}
+}
+.bp(large, @rules) {
+  @media (min-width: @screen-lg-desktop) {@rules();}
+}
+
+.colored-placeholder(@color, @size, @font-style){
+  &::-webkit-input-placeholder {
+    color: @color;
+    font-size: @size;
+    font-style: @font-style;
+  }
+
+  &:-moz-placeholder { /* Firefox 18- */
+    color: @color;
+    font-size: @size;
+    font-style: @font-style;
+  }
+
+  &::-moz-placeholder {  /* Firefox 19+ */
+    color: @color;
+    font-size: @size;
+    font-style: @font-style;
+  }
+
+  &:-ms-input-placeholder {
+    color: @color;
+    font-size: @size;
+    font-style: @font-style;
+  }
+}

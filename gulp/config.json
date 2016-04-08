@@ -1,0 +1,38 @@
+{
+  "js": {
+    "bootstrapValidation": {
+      "libname": "bootstrap.validation",
+      "dest": "dist/js",
+      "jshintrc": "src/js/.jshintrc",
+      "jscsrc": ".jscsrc",
+      "maps":  "/maps",
+      "srcfiles": [
+        { "root": "src/js/", "directory": "", "filename": "bootstrap-validation.js", "external": false }
+      ]
+    }
+  },
+  "css": {
+    "appStyle": {
+      "libname": "bootstrap.validation",
+      "dest": "dist/css",
+      "csslintrc": "src/css/csslintrc.json",
+      "maps":  "/maps",
+      "srcfiles": [
+        {
+          "root": "src/css/", "directory": "", "filename": "bootstrap.validation.css"
+        }
+      ]
+    }
+  },
+  "less": {
+    "bootstrapValidation": {
+      "libname": "bootstrap.validation",
+      "source": "src/less",
+      "dest": "src/css",
+      "maps": "/maps",
+      "srcfiles": [
+        "src/less/bootstrap-validation.less"
+      ]
+    }
+  }
+}

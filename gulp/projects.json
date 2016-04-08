@@ -1,0 +1,13 @@
+{
+  "default":{
+    "rootDirectory": "./",
+    "outputDirectory": "",
+    "configuration": {
+      "base":"/config"
+    },
+    "tasks":{
+      "base":"/gulp/tasks",
+      "default": ["cssFramework", "jsLibraries"]
+    }
+  }
+}

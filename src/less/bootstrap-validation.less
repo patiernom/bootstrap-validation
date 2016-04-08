@@ -1,0 +1,40 @@
+@import (reference) "utilities";
+
+.bootstrap-validate-form {
+  .popover {
+    margin: 10px;
+  }
+
+  .has-error .form-control.inline-error, .has-error input.inline-error {
+    box-shadow: none;
+    border: none;
+    .colored-placeholder(@brand-primary, 15px, italic);
+  }
+}
+
+.search-validate-form {
+  .alert {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .form-control {
+    .colored-placeholder(@text-color, 20px, italic);
+    .bp(desktop; {
+      .colored-placeholder(@text-color, 24px, italic);
+    });
+  }
+
+  .has-error {
+    background-color: @brand-success;
+    .form-control {
+      background-color: @brand-success;
+      border-color: @text-color;
+      color: @brand-primary;
+      .colored-placeholder(@brand-primary, 20px, italic);
+      .bp(desktop; {
+        .colored-placeholder(@brand-primary, 24px, italic);
+      });
+    }
+  }
+}
