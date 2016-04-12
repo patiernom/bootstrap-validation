@@ -1,0 +1,61 @@
+{
+  "name": "bootstrap-validation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patiernom/bootstrap-validation.git"
+  },
+  "author": {
+    "name": "Marco Patierno",
+    "email": "m.patierno@pizzabo.it",
+    "url": "https://github.com/patiernom"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patiernom/bootstrap-validation/issues"
+  },
+  "keywords": [
+    "gulp",
+    "bootstrap",
+    "less"
+  ],
+  "devDependencies": {
+    "gulp-concat": "^2.6.0",
+    "gulp-csslint": "^0.2.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-file": "^0.2.0",
+    "gulp-filter": "^3.0.1",
+    "gulp-jscs": "^1.6.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-less": "^3.0.3",
+    "gulp-less-import": "^1.0.0",
+    "gulp-less-json-variables": "^1.0.4",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-mocha": "^2.1.3",
+    "gulp-nodemon": "^2.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sequence": "^0.4.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.4.0",
+    "jshint-stylish": "^2.0.1"
+  },
+  "dependencies": {
+    "grulper-load-tasks": "^1.0.4",
+    "grulper-load-projects": "^1.0.0",
+    "glob-all": "^3.0.1",
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "ramda": "^0.20.1",
+    "lazypipe": "^1.0.1",
+    "mocha": "^2.2.5",
+    "sinon": "^1.17.3",
+    "rewire": "^2.5.1"
+  },
+  "homepage": "https://github.com/patiernom/bootstrap-validation#readme"
+}

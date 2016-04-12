@@ -3,7 +3,7 @@
     "rootDirectory": "./",
     "outputDirectory": "",
     "configuration": {
-      "base":"/config"
+      "base":"/gulp"
     },
     "tasks":{
       "base":"/gulp/tasks",

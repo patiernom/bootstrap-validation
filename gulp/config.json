@@ -15,7 +15,7 @@
     "appStyle": {
       "libname": "bootstrap.validation",
       "dest": "dist/css",
-      "csslintrc": "src/css/csslintrc.json",
+      "csslintrc": "src/less/csslintrc.json",
       "maps":  "/maps",
       "srcfiles": [
         {

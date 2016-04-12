@@ -45,4 +45,4 @@ module.exports = function (gulp, plugins, helpers) {
     return gulpSequence(sequence);
 };
 
-module.exports.dependecies = ['lessFramework'];
+module.exports.dependecies = [];
