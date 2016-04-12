@@ -1,0 +1,140 @@
+.bootstrap-validate-form .popover {
+  margin: 10px;
+}
+.bootstrap-validate-form .has-error .form-control.inline-error,
+.bootstrap-validate-form .has-error input.inline-error {
+  box-shadow: none;
+  border: none;
+}
+.bootstrap-validate-form .has-error .form-control.inline-error::-webkit-input-placeholder,
+.bootstrap-validate-form .has-error input.inline-error::-webkit-input-placeholder {
+  color: #E85C32;
+  font-size: 15px;
+  font-style: italic;
+}
+.bootstrap-validate-form .has-error .form-control.inline-error:-moz-placeholder,
+.bootstrap-validate-form .has-error input.inline-error:-moz-placeholder {
+  /* Firefox 18- */
+  color: #E85C32;
+  font-size: 15px;
+  font-style: italic;
+}
+.bootstrap-validate-form .has-error .form-control.inline-error::-moz-placeholder,
+.bootstrap-validate-form .has-error input.inline-error::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #E85C32;
+  font-size: 15px;
+  font-style: italic;
+}
+.bootstrap-validate-form .has-error .form-control.inline-error:-ms-input-placeholder,
+.bootstrap-validate-form .has-error input.inline-error:-ms-input-placeholder {
+  color: #E85C32;
+  font-size: 15px;
+  font-style: italic;
+}
+.search-validate-form .alert {
+  margin-top: 10px;
+  text-align: center;
+}
+.search-validate-form .form-control::-webkit-input-placeholder {
+  color: #212121;
+  font-size: 20px;
+  font-style: italic;
+}
+.search-validate-form .form-control:-moz-placeholder {
+  /* Firefox 18- */
+  color: #212121;
+  font-size: 20px;
+  font-style: italic;
+}
+.search-validate-form .form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #212121;
+  font-size: 20px;
+  font-style: italic;
+}
+.search-validate-form .form-control:-ms-input-placeholder {
+  color: #212121;
+  font-size: 20px;
+  font-style: italic;
+}
+@media (min-width: 1020px) {
+  .search-validate-form .form-control::-webkit-input-placeholder {
+    color: #212121;
+    font-size: 24px;
+    font-style: italic;
+  }
+  .search-validate-form .form-control:-moz-placeholder {
+    /* Firefox 18- */
+    color: #212121;
+    font-size: 24px;
+    font-style: italic;
+  }
+  .search-validate-form .form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #212121;
+    font-size: 24px;
+    font-style: italic;
+  }
+  .search-validate-form .form-control:-ms-input-placeholder {
+    color: #212121;
+    font-size: 24px;
+    font-style: italic;
+  }
+}
+.search-validate-form .has-error {
+  background-color: #FCE7E0;
+}
+.search-validate-form .has-error .form-control {
+  background-color: #FCE7E0;
+  border-color: #212121;
+  color: #E85C32;
+}
+.search-validate-form .has-error .form-control::-webkit-input-placeholder {
+  color: #E85C32;
+  font-size: 20px;
+  font-style: italic;
+}
+.search-validate-form .has-error .form-control:-moz-placeholder {
+  /* Firefox 18- */
+  color: #E85C32;
+  font-size: 20px;
+  font-style: italic;
+}
+.search-validate-form .has-error .form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #E85C32;
+  font-size: 20px;
+  font-style: italic;
+}
+.search-validate-form .has-error .form-control:-ms-input-placeholder {
+  color: #E85C32;
+  font-size: 20px;
+  font-style: italic;
+}
+@media (min-width: 1020px) {
+  .search-validate-form .has-error .form-control::-webkit-input-placeholder {
+    color: #E85C32;
+    font-size: 24px;
+    font-style: italic;
+  }
+  .search-validate-form .has-error .form-control:-moz-placeholder {
+    /* Firefox 18- */
+    color: #E85C32;
+    font-size: 24px;
+    font-style: italic;
+  }
+  .search-validate-form .has-error .form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #E85C32;
+    font-size: 24px;
+    font-style: italic;
+  }
+  .search-validate-form .has-error .form-control:-ms-input-placeholder {
+    color: #E85C32;
+    font-size: 24px;
+    font-style: italic;
+  }
+}
+
+/*# sourceMappingURL=maps/bootstrap.validation.css.map */

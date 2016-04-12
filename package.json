@@ -22,7 +22,8 @@
   "keywords": [
     "gulp",
     "bootstrap",
-    "less"
+    "less",
+    "js"
   ],
   "devDependencies": {
     "gulp-concat": "^2.6.0",
